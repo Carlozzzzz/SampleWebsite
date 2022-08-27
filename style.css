@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.main-nav {
+  background: #aaa;
+  height: 60px;
+}
+.main-nav ul {
+  margin: 0;
+  height: 62px;
+}
+.main-nav ul li {
+  display: inline-block;
+}
+.main-nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  padding: 30px;
+  line-height: 62px;
+  z-index: 10;
+}
+
+/* Hero  */
+
+.hero {
+  position: relative;
+  height: 550px;
+  background-image: url("https://i.postimg.cc/gcvyDxvn/genshin1.jpg");
+  background-size: cover;
+}
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  background: linear-gradient(to right, #000, #fff);
+}
+.hero-content {
+  position: absolute;
+  color: #fff;
+  left: 40px;
+  bottom: 180px;
+}
+.btn {
+  background: #2196f3;
+  padding: 10px 40px;
+  color: #fff;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 30px 0 0 0;
+}
+
+/* Section */
+.section {
+  padding-top: 30px;
+}
+.section-title {
+  text-align: center;
+}
+/*  Flex */
+.flex-container {
+  display: flex;
+}
+.flex-item {
+  padding: 40px;
+}
+.flex-item .section-icon {
+  width: 120px;
+}
