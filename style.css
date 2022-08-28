@@ -1,81 +1,75 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
-* {
-  font-family: "Roboto", sans-serif;
+ /***************Tag Selectors***************/
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
 }
-body {
-  margin: 0;
+ /***************Class Selectors***************/
+.content{
+    display:none;
+    color:rgb(54, 58, 61)
+ }
+.container{
+    height:20rem;
+    position: relative;
+    width:100%;
+
 }
-a {
-  text-decoration: none;
+.container .main_heading{
+    bottom:0px;
+    left: 10px;
+    font-size: 5rem;
+    font-weight:900;
+    margin:0px 20px;
+    color: #4f39f5;
+    position:absolute;
+    
 }
-.main-nav {
-  background: #aaa;
-  height: 60px;
-}
-.main-nav ul {
-  margin: 0;
-  height: 62px;
-}
-.main-nav ul li {
-  display: inline-block;
-}
-.main-nav ul li a {
-  color: #fff;
-  font-weight: bold;
-  padding: 30px;
-  line-height: 62px;
-  z-index: 10;
+.container  .panel{
+    display:flex;
+    float: left;
+    height:20rem;
+    width: 48%;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(246, 250, 255);
+    
 }
 
-/* Hero  */
-
-.hero {
-  position: relative;
-  height: 550px;
-  background-image: url("https://i.postimg.cc/gcvyDxvn/genshin1.jpg");
-  background-size: cover;
+.container  .panel img{
+    height: 150px;
+    width: 150px;
 }
-.hero:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.3;
-  background: linear-gradient(to right, #000, #fff);
-}
-.hero-content {
-  position: absolute;
-  color: #fff;
-  left: 40px;
-  bottom: 180px;
-}
-.btn {
-  background: #2196f3;
-  padding: 10px 40px;
-  color: #fff;
-  font-weight: 500;
-  border: 0px;
-  border-radius: 5px;
-  font-size: 18px;
-  margin: 30px 0 0 0;
+ 
+.container .header-background{
+    background-image: url('../images/genshin1.jpg');
+    height:100%;
+    filter:blur(4px);
+    background-color: black;
+  
 }
 
-/* Section */
-.section {
-  padding-top: 30px;
+
+.bacon:hover{
+    display:none;
 }
-.section-title {
-  text-align: center;
+
+.bacon:hover + .bacon-content{
+    display: block;
 }
-/*  Flex */
-.flex-container {
-  display: flex;
+
+.broccoli:hover{
+    display:none;
 }
-.flex-item {
-  padding: 40px;
+
+.broccoli:hover + .broccoli-content{
+    display: block;
 }
-.flex-item .section-icon {
-  width: 120px;
-}
+
+
+
+
+
+ /***************ID Selectors***************/   
