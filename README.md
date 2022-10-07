@@ -1,3 +1,3 @@
 # SampleWebsite
 
-Link [Link](https://carlozzzzz.github.io/SampleWebsite/)
+[Live here](https://carlozzzzz.github.io/SampleWebsite/)
